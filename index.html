@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Free Code Camp - Survey Form - Draft 2 (no test)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  
+  <h1 id="title">My Survey Form Title</h1>
+
+  <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel enim et nibh varius hendrerit ut eu magna. Mauris a bibendum ligula, ac dapibus quam. Suspendisse potenti.</p>
+
+  <form id="survey-form">
+
+    <label for="name" id="name-label">Who are you?</label>
+    <br>
+    <input required type="text" id="name" name="name" placeholder="Candide Candide">
+    <br>
+    <br>
+
+    <label for="email" id="email-label">What's your email </label>
+    <br>
+    <input required type="email" id="email" name="email" placeholder="email@mail.com">
+    <br>
+    <br>
+
+    <label for="number" id="number-label">Enter a number between 1 and 20</label>
+    <br>
+    <input type="number" id="number" name="number" min="1" max="20" placeholder="13">
+    <br>
+    <br>
+
+    <label for="dropdown">Select from the following options:</label>
+    <br>
+    <select id="dropdown" name="cars">
+      <option value="">--The beat drops down--</option>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select> 
+    <br>
+    <br>
+
+    <p>Select an option:</p>
+
+    <input type="radio" id="contactChoice1" name="books" value="All About Love">
+    <label for="contactChoice1" class="double-interligne">All About Love</label>
+    <br>
+
+    <input type="radio" id="contactChoice2" name="books" value="The will to change">
+    <label for="contactChoice2" class="double-interligne">The will to change</label>
+    <br>
+
+    <input type="radio" id="contactChoice3" name="books" value="Ain't I a Woman?">
+    <label for="contactChoice3" class="double-interligne">Ain't I a Woman?</label>
+    <br>
+    <br>
+
+    <p id="check-text">Check as many as you'd like:</p>
+
+    <input type="checkbox" id="check1" name="bell" value="All About Love">
+    <label for="check1" class="double-interligne">All About Love</label>
+    <br>
+
+    <input type="checkbox" id="check2" name="bell" value="The will to change">
+    <label for="check2" class="double-interligne">The will to change</label>
+    <br>
+
+    <input type="checkbox" id="check3" name="bell" value="Ain't I a Woman?">
+    <label for="check3" class="double-interligne">Ain't I a Woman?</label>
+    <br>
+    <br>
+
+    <label for="comment" id="comment-text">Have any questions or concerns? Let us know:</label>
+    <br>
+    <textarea id="comment" name="comment" rows="5" cols="33"></textarea>
+    <br>
+    <br>
+
+    <input type="submit" id="submit" name="submit" value="Submit">
+  </form>
+  
+</div>
+<!-- partial -->
+  
+</body>
+</html>

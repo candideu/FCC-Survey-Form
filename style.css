@@ -1,0 +1,222 @@
+/*IMPORT INTER FONT--------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*VERTICAL SCROLLBARS--------------------------*/
+/* Works on Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #232324 #d1e036;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  background: #d1e036;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #232324;
+  border-radius: 20px;
+  border: 3px solid #d1e036;
+}
+/*----------------------------------------------*/
+
+
+body {
+  background: rgba(232, 249, 60, 1);
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #232324;
+}
+
+::selection, mark {
+  background: #d1e036;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 3.125rem auto;
+}
+
+@media (min-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+#description {
+  margin-bottom: 4rem;
+}
+
+[type=text],
+[type=url],
+[type=tel],
+[type=number],
+[type=email],
+[type=search],
+select {
+  background-color: rgba(232, 249, 60, 1);
+  border: none;
+  border-bottom: 2px solid #232324;
+  border-radius: 0;
+  font-size: 18px;
+  outline: none;
+  padding: 0.5333333333rem 0.8rem 0.5333333333rem 0.2rem;
+  width: 100%;
+  margin: 0 0 2rem 0;
+  font-family: inherit;
+}
+
+textarea {
+  font-family: 'inter';
+  color: #232324;
+  background-color: rgba(232, 249, 60, 1);
+  border: none;
+  border: 2px solid #232324;
+  border-radius: 0;
+  font-size: 18px;
+  outline: none;
+  padding: 0.5333333333rem 0.8rem;
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+
+#comment-text, #check-text {
+  margin-top: 2rem;
+}
+
+[type=submit] {
+  background-color: #232324;
+  color: rgba(232, 249, 60, 1);
+  border: 2px solid #232324;
+  border-radius: 0;
+  font-size: 18px;
+  outline: none;
+  padding: 0.5333333333rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'inter';
+}
+
+[type=submit]:hover {
+  opacity: 0.9;
+}
+
+
+/*OVERRIDES FOR CHECKBOX AND RADIO BUTTONS-----*/
+/*Source: https://moderncss.dev/pure-css-custom-styled-radio-buttons/ and https://www.scottohara.me/blog/2021/09/24/custom-radio-checkbox-again.html */
+input[type=radio],
+input[type=checkbox] {
+  -webkit-appearance: none; /* Add if not using autoprefixer */
+  appearance: none; /* Remove most all native input styles */
+  background-color: rgba(232, 249, 60, 1); /* this is needed for iOS < 15. Otherwise the background just becomes black. */
+  margin: 0; /* Not removed via appearance */
+  
+  font: inherit;
+  color: #232324;
+  border: 2px solid #232324;
+  height: 1.15em;
+  width: 1.15em;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  
+  display: inline-block;
+  vertical-align: text-bottom;
+  position: relative;
+}
+
+input[type=radio]::before,
+input[type=checkbox]::before {
+  content: '';
+  width: 0.65em;
+  height: 0.65em;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  top: 0;
+  
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+}
+
+input[type=radio]:focus,
+input[type=checkbox]:focus {
+  outline: 2px solid #d1e036;
+  outline-offset: 2px;
+}
+
+input[type=radio]::before {
+ height: 0;
+ width: 0;
+}
+
+input[type=radio]:checked::before {
+  transform: scale(1);
+  border: 5px solid transparent;
+  border-radius: 50%;
+  outline-offset: -6px;
+  background: #232324;
+}
+
+input[type=checkbox] {
+  border-radius: 0%;
+}
+
+input[type=checkbox]:checked::before {  
+  border-right: 3px solid #232324;
+  border-bottom: 3px solid #232324;
+  height: 50%;
+  width: 30%;
+  transform: rotate(45deg) translateY(-20%) translateX(-10%);
+}
+
+.double-interligne {
+  line-height: 2.25;
+}
+
+/*----------------------------------------------*/
+
+
+
+/*OVERRIDES FOR SELECT ------------------------*/
+/*Source: https://moderncss.dev/custom-select-styles-with-pure-css/ */
+
+select {
+  /* Additional resets for further consistency */
+  background-color: transparent;
+  margin: 0;
+  width: 100%;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+select > option {
+  font-family: inherit;
+  background-color: #d1e036;
+  color: #232324;
+  border: 3px solid #232324;
+  box-shadow: unset;
+}
+
+select > option:hover {
+  background-color: #d1e036;
+}
+
+/*----------------------------------------------*/

@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# FCC-Tribute-Page
 
-You can use the [editor on GitHub](https://github.com/candideu/FCC-Survey-Form/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Here is my submission for Free Code Camp's [Survey Form challenge](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) (HTML + CSS Responsive Web Design Certificate).
+<br><br>
+I decided to create a minimal form with a punchy, chartreuse-hued background that evoked Typeform's sleek aesthetic and the No Name brand. I experimented with a custom mark/selection colour, scroll bar, radio buttons, checkmarks, and `<select>` elements.
+<br><br>
+For this site, I picked "Inter" as the font because:
+1) It's used in my favourite newsletter app, [Listmonk](https://listmonk.app/)
+2) According to Typewolf's "Definitive Guide to Free Fonts", Inter is an alternative to Apple's San Francisco Font
+3) It gives No Name vibes.
 
-### Markdown
+## LIVE DEMO: https://candideu.github.io/FCC-Survey-Form/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Fonts used
+- [Inter](https://fonts.google.com/specimen/Inter)
 
-```markdown
-Syntax highlighted code block
+## Tutorials that helped me
+- [Pure CSS Custom Styled Radio Buttons](https://moderncss.dev/pure-css-custom-styled-radio-buttons/)
+- [One last time: custom styling radio buttons and checkboxes](https://www.scottohara.me/blog/2021/09/24/custom-radio-checkbox-again.html)
+- [\<select>: The HTML Select element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+- [Custom Select Styles with Pure CSS](https://moderncss.dev/custom-select-styles-with-pure-css/)
+- [How to style the option of an html "select" element?](https://stackoverflow.com/questions/7208786/how-to-style-the-option-of-an-html-select-element#comment50495089_7208814)
 
-# Header 1
-## Header 2
-### Header 3
+## [Penpot design + prototype file](https://design.penpot.app/#/view/99d546a0-5980-11ec-a5ae-e949c75b760d?page-id=c0b18c70-5980-11ec-ad7e-61a9277ea3dd&index=0&share-id=f52d2860-62db-11ec-95ac-c2b142838c8b)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/candideu/FCC-Survey-Form/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## [View other projects here](https://github.com/candideu/Free-Code-Camp-Responsive-Web-Design-Projects)
